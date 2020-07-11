@@ -1,0 +1,7 @@
+.menu-item{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--x-color-text-secondary);
+}

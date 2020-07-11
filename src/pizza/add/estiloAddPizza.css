@@ -1,0 +1,16 @@
+.add-pizza {
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: auto ;
+    row-gap: 50px;
+
+}
+
+.scroll {
+
+    max-height: 150px;
+    overflow-y: scroll;
+
+}

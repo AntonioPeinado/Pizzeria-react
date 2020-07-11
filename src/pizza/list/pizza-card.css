@@ -1,0 +1,15 @@
+.pizza-card {
+  width: 20rem;  
+  margin: var(--x-margin-medium);
+  }
+
+  .pizza-card__text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: var(--x-margin-small);
+    padding-top: var(--x-padding-small);
+    padding-bottom: var(--x-padding-small);
+    background-color: var(--x-color-secondary);
+    color: var(--x-color-text-secondary);
+  }

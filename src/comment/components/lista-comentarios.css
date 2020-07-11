@@ -1,0 +1,22 @@
+.comment{
+   height: unset;
+   margin-bottom: var(--x-margin-medium);
+}
+.pizza-comment{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.pizza-comment__header{
+   font-weight: 600;
+   display: flex;
+   justify-content: space-around;
+}
+.pizza-comment__body{
+   font-style: italic;
+}
+.pizza-comment__header__left{
+   flex: 1;
+}
+   
+

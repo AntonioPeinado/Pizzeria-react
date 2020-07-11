@@ -1,0 +1,11 @@
+.pizza-inicio{
+    display: flex;
+    margin-left: 22rem;
+    align-items: center;
+    height: 16rem;
+    
+} 
+.pizza-inicio__dialogo{
+     margin-left: 24rem;
+     color: rgb(100, 40, 241);
+}  

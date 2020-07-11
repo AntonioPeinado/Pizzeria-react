@@ -1,0 +1,21 @@
+.pizza-comments__form{
+    display: flex;
+    flex-direction: column;
+}
+.pizza-comments__input{
+   margin-bottom: 10px;
+}
+
+.pizza-comments__bottom {
+  margin-top: var(--x-margin-medium);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pizza-comments__score {
+  width: 40%;
+}
+
+.pizza-comments__error{
+  color: var(--x-color-error);
+}

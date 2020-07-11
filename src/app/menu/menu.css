@@ -1,0 +1,11 @@
+.menu {
+    height: 100vh;
+  }
+
+  .menu__image {
+    width: 100%;
+  }
+
+ .menu__title {
+   text-align: center;
+  }

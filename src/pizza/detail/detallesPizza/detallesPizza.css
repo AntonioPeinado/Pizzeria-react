@@ -1,0 +1,30 @@
+
+.pizza-detalles__card{
+    width: 20rem;  
+    margin: var(--x-margin-medium);
+}
+.pizza-detalles__text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: var(--x-margin-small);
+    padding-top: var(--x-padding-small);
+    padding-bottom: var(--x-padding-small);
+    background-color: var(--x-color-secondary);
+    color: var(--x-color-text-secondary);
+}
+.pizza-detalles__price{
+    align-items: center;
+    font-size: var(--x-font-small);
+}
+.pizza-detalles__ingredients{
+    display: flex;
+    flex-direction: column;
+}
+.pizza-detalles__ingredients__nameprice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: baseline;
+}

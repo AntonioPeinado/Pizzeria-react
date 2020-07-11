@@ -1,0 +1,38 @@
+
+.login-form {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: auto ;
+    row-gap: 40px;
+    border-radius: 1rem;
+    background-color: rgb(253, 183, 33);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+    width: 20rem; 
+    height: 25rem;
+    
+}
+.login-form-title{
+    text-align: center;
+    color: rgb(20, 219, 70);
+
+}
+.login-form-error{
+    text-align: center;
+    color: crimson;
+
+}
+ body{
+    background-image: url(Allo-Pizza.jpg); 
+}
+
+.login-form__register{
+   
+    color:rgb(77, 18, 240) ;
+    text-decoration: none;
+}
+.login-container{
+    display:flex;
+    align-items: center;
+}
+

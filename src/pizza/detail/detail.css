@@ -1,0 +1,7 @@
+.pizza-detail {
+    display: flex;
+}
+.pizza-detail__comments {
+    flex:1;
+    padding: var(--x-padding-big);
+}

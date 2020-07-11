@@ -1,0 +1,201 @@
+{
+  "$": {
+    "pizzas": {
+      "relations": [
+        {
+          "hasMany": "ingredients",
+          "fromCollection": "ingredients"
+        }
+      ]
+    },
+    "comments": {
+      "relations": [
+        {
+          "hasOne": "pizza",
+          "fromCollection": "pizzas",
+          "withMany": "comments"
+        },
+        {
+          "hasOne": "user",
+          "fromCollection": "users"
+        }
+      ]
+    }
+  },
+  "users": [
+    {
+      "id": "b11487c1-d6f9-4f33-ba19-8587dffb75e0",
+      "email": "test@test.com",
+      "password": "$2b$10$ga.Opke.JVFs2FUobvlMMebFycSrSGqyC2XpmKJID.JnpsXUDE8Ke",
+      "name": "test"
+    },
+    {
+      "id": "1788c48d-e368-4cb6-9849-b7b1121f7726",
+      "email": "belen@test.com",
+      "password": "$2b$10$R8V3dkLKsamgbvD34Tn2Fubz5LKfCrdhQelnQ151xHD/krD4zCFqO",
+      "name": "Belén"
+    },
+    {
+      "id": "6e07466b-49f0-45c6-8b92-fdc7b4b91318",
+      "email": "antonio@test.com",
+      "password": "$2b$10$YENTp88KyOCucjIQ764DS.Bn9HOclntXLd8HrrRFLwNhdXrwR0Ik2",
+      "name": "Antonio"
+    },
+    {
+      "id": "671b860b-80ed-4342-9f6a-2845f77e4561",
+      "email": "lucia@test.com",
+      "password": "$2b$10$tRt9KWNwX8k1GQJlSOQD3ezZ7HSn.4tLxsLyuOpEd3b.xv6yjlmBS",
+      "name": "Lucia"
+    },
+    {
+      "id": "6c37d026-8715-4553-b66c-f2e623ca0f90",
+      "name": "Isidro",
+      "email": "mi@email.com",
+      "password": "$2b$10$eeEaV7tH4jLIa6gGNYNgKeuvhHWjt6LktxZF4RMGFujutA/ANqX7q"
+    },
+    {
+      "id": "aba39e47-18ae-499d-9641-77637dd73921",
+      "name": "pepe",
+      "email": "belen.aguirre.de.carcer.rojo@gmail.com",
+      "password": "$2b$10$MedYXyZWM8qceQq03/4ykuMkHKx9/sUOPLE2z46ly9sR2aLd5Az0K"
+    },
+    {
+      "id": "d8fee4bc-9041-4ec4-b3c1-ed91c4e81acb",
+      "name": "pepe",
+      "email": "manuel@test.com",
+      "password": "$2b$10$Lni1L31uLrSm8KU3CBTizuNHsjgcyv..riodpqZ7U29lqLfvHszy6"
+    },
+    {
+      "id": "acd58ae5-1c5c-4d22-9323-1f3ec0c7afbc",
+      "name": "Antonio Peinado",
+      "email": "aps-65@hotmail.com",
+      "password": "$2b$10$aMn8FNltI6w3/6vfB/vL0uvZ2f/4BhpACZ0tWMIQPTbwXOXIlbH.a"
+    },
+    {
+      "id": "fdbde5d5-979f-4983-8df7-82d3627baa60",
+      "name": "Antonio ",
+      "email": "a.peinado.sevilla@gmail.com",
+      "password": "$2b$10$z/EHC9m9EDEQhU.33iHbB.kQUaMmbG/KAOhbZBiGKQFIUnQOUWcxi"
+    },
+    {
+      "id": "0ceabff4-42aa-48a6-80e5-01fd0e92fbb6",
+      "name": "",
+      "email": "",
+      "password": "$2b$10$J2tkrde9fpTpaHK7LRVuFu0nDlAbxBqBuXr9mmDym5JD9ci.jNXk2"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": "2e473fff-e88f-4ca3-b43c-99ff9797d7d4",
+      "name": "Margarita",
+      "img": "/images/b6f75669dc4d36a5deb6ba69b05d1497db0b.png",
+      "ingredients": []
+    },
+    {
+      "id": "c1b68de7-4eb9-40fd-88d1-2c83b261d018",
+      "name": "Carbonara",
+      "img": "/images/4ca194dffa4c5212cf53c259aac960856a8c.png",
+      "ingredients": [
+        "17104efb-392e-4942-87c7-5dafd259e7e1",
+        "bab7d176-ea27-4815-b4c8-6054cf33e2dd"
+      ]
+    },
+    {
+      "id": "dbe28ace-1554-476e-bbfa-6afbc4414223",
+      "name": "Diabola",
+      "img": "/images/36192173765ae80fe1105f96dc93e127fda5.png",
+      "ingredients": [
+        "647429ae-471a-4236-87b1-94b54e6757a2"
+      ]
+    },
+    {
+      "id": "b6972171-a4c8-436e-ba89-b4d1d6a5c2c1",
+      "name": "Prosciutto",
+      "img": "/images/06110edd040d66d6a2578828387da29d0ec0.png",
+      "ingredients": [
+        "32b07851-127c-4857-8b4f-76c410c3c368"
+      ]
+    },
+    {
+      "id": "e674cf0a-04a1-468d-ad1f-5392e883e89b",
+      "name": "adad",
+      "ingredients": [
+        "17104efb-392e-4942-87c7-5dafd259e7e1",
+        "bab7d176-ea27-4815-b4c8-6054cf33e2dd"
+      ],
+      "img": "/images/e489d048d4111110f0ee4237e10556efd2c6.PNG"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "17104efb-392e-4942-87c7-5dafd259e7e1",
+      "name": "Onion",
+      "prize": 2
+    },
+    {
+      "id": "647429ae-471a-4236-87b1-94b54e6757a2",
+      "name": "Peperoni",
+      "prize": 2
+    },
+    {
+      "id": "bab7d176-ea27-4815-b4c8-6054cf33e2dd",
+      "name": "Bacon",
+      "prize": 5
+    },
+    {
+      "id": "32b07851-127c-4857-8b4f-76c410c3c368",
+      "name": "Ham",
+      "prize": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": "3a230a1b-a7ee-4d90-a7ab-2ae6b1df4988",
+      "text": "good",
+      "created": "Tue, 02 Jun 2020 12:22:48 GMT",
+      "score": 7,
+      "user": "b11487c1-d6f9-4f33-ba19-8587dffb75e0",
+      "pizza": "c1b68de7-4eb9-40fd-88d1-2c83b261d018"
+    },
+    {
+      "id": "0b3afbd9-0229-471f-9f84-6c770d5fed71",
+      "text": "awesome",
+      "created": "Tue, 02 Jun 2020 13:22:48 GMT",
+      "score": 9,
+      "user": "b11487c1-d6f9-4f33-ba19-8587dffb75e0",
+      "pizza": "c1b68de7-4eb9-40fd-88d1-2c83b261d018"
+    },
+    {
+      "id": "84fbb9dc-713e-4121-b25c-2724076a26ad",
+      "text": "bad",
+      "created": "Tue, 02 Jun 2020 14:22:48 GMT",
+      "score": 2,
+      "user": "b11487c1-d6f9-4f33-ba19-8587dffb75e0",
+      "pizza": "2e473fff-e88f-4ca3-b43c-99ff9797d7d4"
+    },
+    {
+      "id": "0c45ab43-4344-4708-8ef3-eeab01c88fa7",
+      "text": "pasable muy pesada",
+      "score": 5,
+      "pizza": "dbe28ace-1554-476e-bbfa-6afbc4414223",
+      "created": "Fri, 19 Jun 2020 14:10:13 GMT",
+      "user": "acd58ae5-1c5c-4d22-9323-1f3ec0c7afbc"
+    },
+    {
+      "id": "5494a327-3a3a-4d6a-ae83-d564759b4bf3",
+      "text": "està muy rica",
+      "score": 6,
+      "pizza": "c1b68de7-4eb9-40fd-88d1-2c83b261d018",
+      "created": "Fri, 19 Jun 2020 15:40:29 GMT",
+      "user": "acd58ae5-1c5c-4d22-9323-1f3ec0c7afbc"
+    },
+    {
+      "id": "87fb4ff1-08c3-475d-a347-550bb9f7c2b3",
+      "text": "muy muy buena",
+      "score": 10,
+      "pizza": "2e473fff-e88f-4ca3-b43c-99ff9797d7d4",
+      "created": "Sat, 04 Jul 2020 13:39:08 GMT",
+      "user": "acd58ae5-1c5c-4d22-9323-1f3ec0c7afbc"
+    }
+  ]
+}

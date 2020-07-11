@@ -1,0 +1,9 @@
+.pizza-list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pizza-list__item {
+  height: unset;
+  margin-bottom: var(--x-margin-medium);
+}

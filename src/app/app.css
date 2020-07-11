@@ -1,0 +1,10 @@
+.app {
+    display: flex;
+    height: 100%;
+}
+.app__content {
+    width: 100%;
+}
+.app__content__inner{
+    height: 100%;
+}
